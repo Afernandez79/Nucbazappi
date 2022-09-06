@@ -1,0 +1,74 @@
+body{
+  background-color: #252525;
+}
+
+header{
+  display:flex; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.logo_pizza{
+  position: absolute;
+  height: 79px;
+  width: 76px;
+  position: relative;
+  margin-top: 31px;
+  margin-left: 65px;
+    
+}
+
+.home_icon{
+  width: 19px;
+  height: 20px;
+  left: 2.5px;
+  top: 12px;
+  display: flex;
+  position: relative;
+  display: flex;
+  justify-items: left;
+  align-items:flex-end;
+  padding-right: 10.42%;
+  padding-left: 782px;
+
+}
+
+
+.icon_cart{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 15px;
+  padding-top: 25px;
+  padding-right: 15%;
+  
+  }
+
+  .fill_4{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 25px;
+    padding-top: 15px;
+    padding-right: 40px;
+    width: 11px;
+    height: 11px;
+    
+  }
+
+
+  .fill_1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 7px;
+    padding-left: 1280px;
+    padding-top: 35px;    
+    
+  }
