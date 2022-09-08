@@ -69,7 +69,7 @@ header{
     justify-content: center;
     width: 16px;
     height: 7px;
-    padding-left: 1280px;
+    padding-left: 1358px;
     padding-top: 35px;    
     
   }
@@ -124,7 +124,7 @@ main {
     font-size: 22px;
     font-weight: 500;
     position: absolute;
-    top: 370px;
+    top: 480px;
 }
 
 .hero-info a{
@@ -136,7 +136,7 @@ main {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 450px;
+    top: 550px;
     color: white;
 }
 
@@ -251,6 +251,33 @@ main {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 
+}
+
+footer {
+  background: #252525;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer a{
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+footer span{
+  font-weight: 800;
 }
 
 
