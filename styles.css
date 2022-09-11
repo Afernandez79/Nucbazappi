@@ -69,7 +69,7 @@ header{
     justify-content: center;
     width: 16px;
     height: 7px;
-    padding-left: 1358px;
+    padding-left: 1284px;
     padding-top: 35px;    
     
   }
@@ -252,6 +252,448 @@ main {
   background-clip: text;
 
 }
+
+
+#categorias{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction:row;
+}
+
+.category{
+ position: absolute;
+ width: 87px;
+ height: 20px;
+ left: 90px;
+ top: 1070px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 15px;
+ 
+}
+
+
+
+.pizzas{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 56px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+}
+
+.img_pizza{
+  position: relative;
+  width: 71 px;
+  height: 71px;
+  left: 34px;
+  top: 25px;
+  
+
+}
+
+.img_pizza_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 48px;
+ top: 32px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+.h5_pizzas{
+ position: absolute;
+ width: 47px;
+ height: 20px;
+ left: 46px;
+ top: 108px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 15px;
+ line-height: 131.02%;
+ color: #FFFFFF;
+
+}
+
+.rectangulo1{
+ position: absolute;
+ width: 24px;
+ height: 4px;
+ left: 7px;
+ top: 90px;
+
+}
+
+
+
+.hamburguesas{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 236px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+
+}
+
+.img_hamb{
+  position: relative;
+  width: 85 px;
+  height: 85px;
+  left: 32px;
+  top: 18px;
+   
+}
+
+.img_hamb_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 48px;
+ top: 32px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+.h5_hamb{
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 16px;
+  top: 108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+ 
+ }
+
+ .rectangulo2{
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 7px;
+  top: 90px;
+ 
+ }
+
+ .papas{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 416px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+}
+
+.img_papas{
+ position: absolute;
+ width: 83px;
+ height: 83px;
+ left: 28px;
+ top: 18px;
+}
+
+.img_papas_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 48px;
+ top: 32px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+
+.papitas{
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 36px;
+  top: 108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+ 
+ }
+
+ .rectangulo3{
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 17px;
+  top: 90px;
+ 
+ }
+
+ .individuales{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 590px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+}
+
+.img_indi{
+ position: absolute;
+ width: 85px;
+ height: 86px;
+ left: 39px;
+ top: 17px;
+
+}
+
+.img_indi_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 48px;
+ top: 32px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+.h5_indi{
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 36px;
+  top: 108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+
+}
+
+.rectangulo4{
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 17px;
+  top: 90px;
+ 
+ }
+
+.wraps{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 772px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+}
+
+.img_wrap{
+  position: absolute;
+ width: 86px;
+ height: 86px;
+ left: 32px;
+ top: 17px;
+}
+
+.img_wrap_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 43px;
+ top: 34px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+.h5_wrap{
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 49px;
+  top: 108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+
+}
+.rectangulo5{
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 17px;
+  top: 90px; 
+ }
+
+ .mexican{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left: 946px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+}
+
+.img_mex{
+ position: absolute;
+ width: 86px;
+ height: 86px;
+ left: 22px;
+ top: 17px;
+}
+
+.img_mex_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 40px;
+ top: 32px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+.h5_mex{
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 23px;
+  top: 108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:visible;
+
+}
+
+.rectangulo6{
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 17px;
+  top: 90px; 
+ }
+
+ .batidos{
+  display: flex;
+  position: absolute;
+  width: 147px;
+  height: 171px;
+  left:1126px;
+  top: 1121px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+
+}
+
+.img_bati{
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  left: 22px;
+  top: 17px;
+ }
+
+ .img_bati_blur{
+  position: absolute;
+ width: 71px;
+ height: 71px;
+ left: 40px;
+ top: 32px;
+ background: url(image.png);
+ opacity: 0.5;
+ filter: blur(10px);
+
+}
+
+
+ 
+
+ .h5_bati{
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 38px;
+  top: 108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:visible;
+
+}
+
+.rectangulo7{
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  left: 17px;
+  top: 90px; 
+ }
+
+
+
+
+
+
+
 
 footer {
   background: #252525;
