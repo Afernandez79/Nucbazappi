@@ -57,7 +57,7 @@ header {
   width: 20px;
   height: 15px;
   padding-top: 25px;
-  padding-right: 14%;
+  padding-right: 22%;
 
 }
 
@@ -68,7 +68,7 @@ header {
   justify-content: center;
   right: 25px;
   padding-top: 15px;
-  padding-left: 1405.71px;
+  padding-right: 60.71px;
   width: 11px;
   height: 11px;
   cursor: pointer;
@@ -82,7 +82,7 @@ header {
   justify-content: center;
   width: 16px;
   height: 7px;
-  padding-left: 1398px;
+  padding-left: 1262px;
   padding-top: 35px;
   cursor: pointer;
 }
