@@ -20,7 +20,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0px;
 }
 
 .logo_pizza {
@@ -28,7 +27,7 @@ header {
   height: 79px;
   width: 76px;
   position: relative;
-  margin-top: 31px;
+  margin-top: 60px;
   margin-left: 65px;
 
 }
@@ -36,54 +35,58 @@ header {
 .home_icon {
   width: 19px;
   height: 20px;
-  left: 90px;
-  top: 12px;
   display: flex;
-  position: relative;
+  position: absolute;
+  position: absolute;
+  left: 1050px;
+  top: 10.42%;
   display: flex;
   justify-items: left;
   align-items: flex-end;
-  padding-right: 10.42%;
-  padding-left: 782px;
-
 }
 
 
 .icon_cart {
-  position: relative;
+  
   display: flex;
   align-items: center;
   justify-content: center;
   width: 20px;
   height: 15px;
-  padding-top: 25px;
-  padding-right: 22%;
-
+  position: absolute;
+  position: absolute;
+  left: 85%;
+  right: 8.27%;
+  top: 10.42%;
+  bottom: 27.13%;
 }
 
 .fill_4 {
   display: flex;
-  position: absolute;
   align-items: center;
   justify-content: center;
-  right: 25px;
-  padding-top: 15px;
-  padding-right: 60.71px;
   width: 11px;
   height: 11px;
+  position: absolute;
+  left: 92.97%;
+  right: 6.33%;
+  top: 10.42%;
+  bottom: 96.26%;
   cursor: pointer;
 }
 
 
 .fill_1 {
   display: flex;
-  position: absolute;
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 7px;
-  padding-left: 1262px;
-  padding-top: 35px;
+  position: absolute;
+  left: 92.79%;
+  right: 6.15%;
+  top: 12%;
+  bottom: 80%;
   cursor: pointer;
 }
 
@@ -99,7 +102,6 @@ main {
 #hero {
   max-width: 1529px;
   margin-top: 180px;
-  margin-left: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,6 +113,8 @@ main {
   align-items: flex-start;
   justify-content: start;
   flex-direction: column;
+  position: relative;
+  left: 50px;
 }
 
 .hero-info h1 {
@@ -128,7 +132,7 @@ main {
   font-size: 22px;
   font-weight: 500;
   position: absolute;
-  top: 480px;
+  top: 200px;
 }
 
 .hero-info a {
@@ -140,7 +144,7 @@ main {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 550px;
+  top: 280px;
   color: white;
 }
 
@@ -283,12 +287,10 @@ main {
   display: flex;
   align-items: center;
   position: relative;
-  left: 25px;
+  left: 85px;
   bottom: 1000px;
   cursor: pointer;
 }
-
-
 
 .pizzas {
   display: flex;
@@ -721,6 +723,8 @@ main {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
+  right: 0px;
   padding: 0 5px;
   gap: 25px;
   padding: 30px;
